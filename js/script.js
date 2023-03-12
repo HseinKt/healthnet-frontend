@@ -36,6 +36,10 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
 }
 
+if (sessionStorage.getItem('user_id')) {
+    userid = true
+}
+
 if (!userid) {
     icon.hidden = true;
   } else {
@@ -43,4 +47,4 @@ if (!userid) {
     login_register[1].hidden = true;
   }
   
-
+ 
