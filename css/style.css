@@ -130,7 +130,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #bface2;
+    background-color: #ffffff;
   }
   .footer-logo{
     display: flex;
@@ -148,7 +148,39 @@
     width: 5%;
     margin: 0.5%;
   }
-  
+
+  /* main-container About us*/
+  .main-container{
+    display: flex;
+    flex-direction: row;
+    margin: 4%;
+  }
+
+  .img-aboutUS {
+    width: 50%;
+  }
+  .img-aboutUS img{
+    width: 100%;
+    height: 100%;
+  }
+  .description-aboutUS {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    padding: 2%;
+    font-size: 90%;
+
+  }
+  .escription-aboutUS h2 {
+    margin: 40%;
+  }
+  .escription-aboutUS p {
+    font-size: small;
+  }
+
 @media (max-width: 800px) {
     .logo h1 {
       font-size: 20px;
@@ -178,5 +210,14 @@
     .right {
       margin-top: 10%;
     }
-    
+    .img-aboutUS {
+        width: 0%;
+      }
+    .img-aboutUS img{
+        display: block;
+      }
+    .description-aboutUS {
+        width: 100%;
+        font-size: 70%;
+    }
   }
