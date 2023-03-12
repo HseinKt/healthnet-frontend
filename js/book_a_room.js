@@ -19,6 +19,7 @@ submit_button.addEventListener('click', () => {
             if (result.status == 200){
                 console.log("acess 1");
                 console.log(result.data.id);
+                window.location.href = "../Index.html"
             }
         })
         .catch((err) => {
