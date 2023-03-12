@@ -54,13 +54,18 @@
   }
 
   .login-btn,
-  .register-btn {
+  .register-btn,
+  .book-btn {
     color: white;
-    padding: 10px 20px;
+    padding: 9px 20px;
     background-color: #7D9EF4;
     border: none;
     border-radius: 5px;
     font-size: 15px;
+  }
+
+  .book-btn {
+    width: 150px;
   }
   
   .login-btn:hover,
@@ -190,9 +195,13 @@
       padding-right: 3%;
     }
     .login-btn,
-    .register-btn {
+    .register-btn,
+    .book-btn {
       padding: 7px 15px;
       font-size: 10px;
+    }
+    .book-btn{
+        width: 100px;
     }
     .btnn{
       font-size: 15px;

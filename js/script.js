@@ -1,6 +1,9 @@
 const left = document.getElementById("left");
 const right = document.getElementById("right");
+let icon = document.getElementById("active2");
+let login_register = document.getElementsByClassName("active1");
 
+let userid = false;
 let slideIndex = 1;
 
 showSlides(slideIndex);
@@ -27,5 +30,11 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
 }
 
-
+if (!userid) {
+    icon.hidden = true;
+  } else {
+    login_register[0].hidden = true;
+    login_register[1].hidden = true;
+  }
+  
 
