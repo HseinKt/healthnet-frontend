@@ -1,5 +1,7 @@
 const left = document.getElementById("left");
 const right = document.getElementById("right");
+const register = document.getElementById("register");
+const login = document.getElementById("login");
 let icon = document.getElementById("active2");
 let login_register = document.getElementsByClassName("active1");
 
@@ -7,6 +9,10 @@ let userid = false;
 let slideIndex = 1;
 
 showSlides(slideIndex);
+
+
+register.addEventListener("click", () => window.location.href = "./pages/register.html");
+login.addEventListener("click", () => window.location.href = "./pages/login.html");
 
 left.addEventListener("click", () => showSlides((slideIndex -= 1)));
 right.addEventListener("click", () => showSlides((slideIndex += 1)));
