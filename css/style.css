@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e9eefb;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2%;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logo h1 {
+    color: #3e54ac;
+    font-size: 50px;
+    font-family: "Monarda";
+  }
+  
+  .menu {
+    width: 90%;
+  }
+  
+  .menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: larger;
+    padding-right: 5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .login-btn,
+  .register-btn {
+    color: white;
+    padding: 10px 20px;
+    background-color: #655dbb;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .login-btn:hover,
+  .register-btn:hover {
+    color: black;
+    background: #e9eefb;
+  }
+  
+  .register-btn {
+    margin-left: 10px;
+  }
+  
