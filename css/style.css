@@ -69,7 +69,8 @@
   }
   
   .login-btn:hover,
-  .register-btn:hover {
+  .register-btn:hover,
+  .book-btn:hover {
     color: black;
     background: #e9eefb;
   }
