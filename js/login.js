@@ -16,25 +16,11 @@ login_button.addEventListener('click', () => {
                 console.log("acess 1");
                 console.log(result.data.id);
                 sessionStorage.setItem('user_id',result.data.id);
-                // check the patie  nt is assigned to a hospital by admin
-                axios
-                    .post('http://localhost/healthnet/healthnet-backend/patient_assigned.php',data)
-                    .then((result) => {
-                        if (result.status == 200){
-                            console.log("acess 2");
-                            console.log(result.data.usertype_id);
-                            sessionStorage.setItem('usertype_id',result.data.usertype_id)
-                            window.location.href = "../Index.html";
-                        } else {
-                            console.error('Error in inner API call:', innerResult);
-                          }
-                        })
-                        .catch((err) => {
-                          console.error('Error in inner API call:', err);
-                        });
-                }
-            })
-            .catch((err) => {
-                    console.error('Error in outer API call:', err);
-            });
+                window.location.href = "../Index.html";
+            }
+        })
+        .catch((err) => {
+                console.error('Error in outer API call:', err);
+        });
 })
+
