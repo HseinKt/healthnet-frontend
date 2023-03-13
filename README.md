@@ -59,6 +59,6 @@ The website usually includes a homepage with basic information about the hospita
 
 ![book](https://user-images.githubusercontent.com/120685276/224606203-dd406294-1e82-4ba8-92ca-5aa8ed6fe7b0.png)
 
-
+![admin](https://user-images.githubusercontent.com/120685276/224606473-26e5568b-74a3-4736-a9b9-5724a32d39a2.png)
 
 
