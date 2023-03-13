@@ -41,5 +41,24 @@ The website usually includes a homepage with basic information about the hospita
 
 
 
+### Implementation:
+
+![Header2](https://user-images.githubusercontent.com/120685276/224606167-31739bea-9f60-4141-a3fd-329d7316a06a.png)
+
+![aboutUS](https://user-images.githubusercontent.com/120685276/224606171-f77a5bef-9498-4e2f-ab06-439ea353f412.png)
+
+![login2](https://user-images.githubusercontent.com/120685276/224606187-465fa08a-89e0-4789-b10e-ffcc5280fccb.png)
+
+![services2](https://user-images.githubusercontent.com/120685276/224606189-2ed00465-9cc9-477a-af79-d4d5674a6a2b.png)
+
+![medications2](https://user-images.githubusercontent.com/120685276/224606192-5fbacf5a-2fe7-4fda-89b0-b801252c1b97.png)
+
+![invoicepdf](https://user-images.githubusercontent.com/120685276/224606194-8c4b8f15-f697-4610-b5ae-42fc4937682e.png)
+
+![register2](https://user-images.githubusercontent.com/120685276/224606196-0b6147d4-0939-4d30-b282-b0dcccdde164.png)
+
+![book](https://user-images.githubusercontent.com/120685276/224606203-dd406294-1e82-4ba8-92ca-5aa8ed6fe7b0.png)
+
+
 
 
