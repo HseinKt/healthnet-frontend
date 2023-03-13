@@ -8,7 +8,6 @@ axios
         DATA.map((data) => {
             let div = document.createElement("div");
             div.innerHTML = `
-                
                 <tr>
                     <td>- ${data.id}       </td>
                     <td>${data.name}      : </td>
@@ -36,8 +35,23 @@ submit_button.addEventListener('click', () => {
         .then((result) => {
             console.log(result);
             if (result.status == 200) {
-                alert("added succesfully");
-                window.location.href = "../Index.html"
+                console.log("request success ");
+                const confirmation = confirm(" diplay patient medications: ")
+                if(confirmation) {
+                    const data2 = new FormData();
+                    data2.append('user_id',user_id);
+                    axios
+                    .post('http://localhost/healthnet/healthnet-backend/display_patient_medications.php',data2)
+                    .then((result) => {
+                        if (result.status == 200){
+                            alert(JSON.stringify(result.data));
+                            window.location.href = "../Index.html";
+                        }
+                    })
+                    .catch((err) => {
+                            console.error('Error in outer API call:', err);
+                    });                    
+                }
             }
         })
         .catch((err) => {
